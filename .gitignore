@@ -1,0 +1,15 @@
+# Generated CMake builds and compiled files
+/build/
+/build-*/
+/cmake-build-*/
+*.o
+*.a
+*.so
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/

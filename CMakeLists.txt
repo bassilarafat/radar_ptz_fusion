@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(radar_ptz_starter LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(radar_demo src/main.cpp src/simulated_radar_source.cpp)
+target_include_directories(radar_demo PRIVATE include)
+target_compile_options(radar_demo PRIVATE -Wall -Wextra -Wpedantic)
