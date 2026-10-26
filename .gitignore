@@ -5,6 +5,8 @@
 *.o
 *.a
 *.so
+/mmaud_reader
+/npy_inspector
 
 # Local configuration and credentials
 .env
